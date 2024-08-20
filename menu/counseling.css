@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.smartphone {
+  width: 375px;
+  height: 667px;
+  border: 6px solid black;
+  border-radius: 36px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+}
+
+.screen {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer img{
+  width: 30px;
+}

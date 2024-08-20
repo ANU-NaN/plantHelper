@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.smartphone {
+  width: 375px;
+  height: 667px;
+  border: 6px solid black;
+  border-radius: 36px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+}
+
+.screen {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a{
+  cursor: grab;
+  text-decoration: none;
+  color: black;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+}
+
+.header img {
+  width: 30px;
+}
+.header h1 {
+  display: inline;
+}
+
+#search{
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px 40px;
+  margin: 20px;
+  border: none;
+  background-image: url('./src/magnifier.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 10px center;
+  background-color: rgb(242, 239, 236);
+}
+
+.content{
+  width: 80%;
+}
+.content p{
+  margin-top: 0px;
+}
+.menu_box{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin: 0px 10px 10px 10px;
+}
+.menu_box img{
+  width: 130px;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer img{
+  width: 30px;
+}
