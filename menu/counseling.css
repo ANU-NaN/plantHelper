@@ -39,6 +39,26 @@ body {
   border-radius: 10px;
   width: 98%;
   height: 75%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.user{
+  background-color: greenyellow;
+  margin: 5px;
+  margin-left: auto;
+  text-align: right;
+  border-radius: 10px;
+  padding: 5px;
+  border: solid 1px black;
+}
+.response{
+  background-color: bisque;
+  margin: 5px;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
 }
 .input{
   display: flex;
