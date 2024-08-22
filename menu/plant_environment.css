@@ -18,12 +18,20 @@ body {
 }
 
 .screen {
-  width: 100%;
+  width: 90%;
   height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin: 0px 5%;
+}
+
+.header img{
+  width: 30px;
+}
+.header h1{
+  display: inline-block;
+}
+.header #back{
+  float: right;
+  margin-top: 10px;
 }
 
 .footer{
